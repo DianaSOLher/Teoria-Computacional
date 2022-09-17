@@ -1,0 +1,32 @@
+goto
+tatic 
+auto
+break
+gooto case chsar const 
+continuee desfaulta dofa
+double else enum{} extern+´ float for if
+int long register return short signed sizeof static
+struct switch
+typedef
+union unsigned
+void
+typedef
+union unsigned
+void
+volatile
+while
+
+typedef
+union unsigned
+void
+volatile
+while
+
+typedef
+union unsigned
+void
+volatile
+while
+
+volatile
+while

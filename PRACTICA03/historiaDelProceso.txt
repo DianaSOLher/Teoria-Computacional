@@ -1,0 +1,59 @@
+ f(q0 , g )->q1 f(q1 , o )->q3 f(q3 , t )->q4 f(q4 , o )->q5 Acepta cadena: goto
+ f(q0 , t )->q113 f(q113 , a )-> Rechaza cadena
+ f(q113 , t )-> Rechaza cadena
+ f(q113 , i )-> Rechaza cadena
+ f(q113 , c )-> Rechaza cadena
+ f(q0 , a )->q2 f(q2 , u )->q3 f(q3 , t )->q4 f(q4 , o )->q5 Acepta cadena: auto
+ f(q0 , b )->q6 f(q6 , r )->q7 f(q7 , e )->q8 f(q8 , a )->q9 f(q9 , k )->q10 Acepta cadena: break
+ f(q0 , g )->q1 f(q1 , o )->q3 f(q3 , o )-> Rechaza cadena
+ f(q3 , t )->q4 f(q4 , o )->q5 Acepta cadena: goto
+ f(q0 , c )->q11 f(q11 , a )->q12 f(q12 , s )->q13 f(q13 , e )->q14 Acepta cadena: case
+ f(q0 , c )->q11 f(q11 , h )->q15 f(q15 , s )-> Rechaza cadena
+ f(q15 , a )->q16 f(q16 , r )->q17 Acepta cadena: char
+ f(q0 , c )->q11 f(q11 , o )->q18 f(q18 , n )->q19 f(q19 , s )->q25 f(q25 , t )->q26 Acepta cadena: const
+ f(q0 , c )->q11 f(q11 , o )->q18 f(q18 , n )->q19 f(q19 , t )->q20 f(q20 , i )->q21 f(q21 , n )->q22 f(q22 , u )->q23 f(q23 , e )->q24 f(q24 , e )-> Rechaza cadena
+ f(q0 , d )->q27 f(q27 , e )->q28 f(q28 , s )-> Rechaza cadena
+ f(q28 , f )->q29 f(q29 , a )->q30 f(q30 , u )->q31 f(q31 , l )->q32 f(q32 , t )->q33 f(q33 , a )-> Rechaza cadena
+ f(q0 , d )->q27 f(q27 , o )->q34 f(q34 , f )-> Rechaza cadena
+ f(q34 , a )-> Rechaza cadena
+ f(q0 , d )->q27 f(q27 , o )->q34 f(q34 , u )->q35 f(q35 , b )->q36 f(q36 , l )->q37 f(q37 , e )->q38 Acepta cadena: double
+ f(q0 , e )->q39 f(q39 , l )->q40 f(q40 , s )->q41 f(q41 , e )->q42 Acepta cadena: else
+ f(q0 , e )->q39 f(q39 , n )->q48 f(q48 , u )->q49 f(q49 , m )->q50 Acepta cadena: enum
+ f(q0 , e )->q39 f(q39 , x )->q43 f(q43 , t )->q44 f(q44 , e )->q45 f(q45 , r )->q46 f(q46 , n )->q47 Acepta cadena: extern
+ f(q0 , f )->q51 f(q51 , l )->q52 f(q52 , o )->q53 f(q53 , a )->q54 f(q54 , t )->q55 Acepta cadena: float
+ f(q0 , f )->q51 f(q51 , o )->q56 f(q56 , r )->q57 Acepta cadena: for
+ f(q0 , i )->q58 f(q58 , f )->q61 Acepta cadena: if
+ f(q0 , i )->q58 f(q58 , n )->q59 f(q59 , t )->q60 Acepta cadena: int
+ f(q0 , l )->q62 f(q62 , o )->q63 f(q63 , n )->q64 f(q64 , g )->q65 Acepta cadena: long
+ f(q0 , r )->q66 f(q66 , e )->q67 f(q67 , g )->q68 f(q68 , i )->q69 f(q69 , s )->q70 f(q70 , t )->q71 f(q71 , e )->q72 f(q72 , r )->q73 Acepta cadena: register
+ f(q0 , r )->q66 f(q66 , e )->q67 f(q67 , t )->q74 f(q74 , u )->q75 f(q75 , r )->q76 f(q76 , n )->q77 Acepta cadena: return
+ f(q0 , s )->q85 f(q85 , h )->q104 f(q104 , o )->q105 f(q105 , r )->q106 f(q106 , t )->q107 Acepta cadena: short
+ f(q0 , s )->q85 f(q85 , i )->q86 f(q86 , g )->q87 f(q87 , n )->q88 f(q88 , e )->q89 f(q89 , d )->q90 Acepta cadena: signed
+ f(q0 , s )->q85 f(q85 , i )->q86 f(q86 , z )->q91 f(q91 , e )->q92 f(q92 , o )->q93 f(q93 , f )->q94 Acepta cadena: sizeof
+ f(q0 , s )->q85 f(q85 , t )->q95 f(q95 , a )->q96 f(q96 , t )->q97 f(q97 , i )->q98 f(q98 , c )->q99 Acepta cadena: static
+ f(q0 , s )->q85 f(q85 , t )->q95 f(q95 , r )->q100 f(q100 , u )->q101 f(q101 , c )->q102 f(q102 , t )->q103 Acepta cadena: struct
+ f(q0 , s )->q85 f(q85 , w )->q108 f(q108 , i )->q109 f(q109 , t )->q110 f(q110 , c )->q111 f(q111 , h )->q112 Acepta cadena: switch
+ f(q0 , t )->q113 f(q113 , y )->q114 f(q114 , p )->q115 f(q115 , e )->q116 f(q116 , d )->q117 f(q117 , e )->q118 f(q118 , f )->q119 Acepta cadena: typedef
+ f(q0 , u )->q78 f(q78 , n )->q79 f(q79 , i )->q80 f(q80 , o )->q81 f(q81 , n )->q82 Acepta cadena: union
+ f(q0 , u )->q78 f(q78 , n )->q79 f(q79 , s )->q83 f(q83 , i )->q84 f(q84 , g )->q87 f(q87 , n )->q88 f(q88 , e )->q89 f(q89 , d )->q90 Acepta cadena: unsigned
+ f(q0 , v )->q120 f(q120 , o )->q121 f(q121 , i )->q122 f(q122 , d )->q123 Acepta cadena: void
+ f(q0 , t )->q113 f(q113 , y )->q114 f(q114 , p )->q115 f(q115 , e )->q116 f(q116 , d )->q117 f(q117 , e )->q118 f(q118 , f )->q119 Acepta cadena: typedef
+ f(q0 , u )->q78 f(q78 , n )->q79 f(q79 , i )->q80 f(q80 , o )->q81 f(q81 , n )->q82 Acepta cadena: union
+ f(q0 , u )->q78 f(q78 , n )->q79 f(q79 , s )->q83 f(q83 , i )->q84 f(q84 , g )->q87 f(q87 , n )->q88 f(q88 , e )->q89 f(q89 , d )->q90 Acepta cadena: unsigned
+ f(q0 , v )->q120 f(q120 , o )->q121 f(q121 , i )->q122 f(q122 , d )->q123 Acepta cadena: void
+ f(q0 , v )->q120 f(q120 , o )->q121 f(q121 , l )->q124 f(q124 , a )->q125 f(q125 , t )->q126 f(q126 , i )->q127 f(q127 , l )->q128 f(q128 , e )->q129 Acepta cadena: volatile
+ f(q0 , w )->q130 f(q130 , h )->q126 f(q126 , i )->q127 f(q127 , l )->q128 f(q128 , e )->q129 Acepta cadena: while
+ f(q0 , t )->q113 f(q113 , y )->q114 f(q114 , p )->q115 f(q115 , e )->q116 f(q116 , d )->q117 f(q117 , e )->q118 f(q118 , f )->q119 Acepta cadena: typedef
+ f(q0 , u )->q78 f(q78 , n )->q79 f(q79 , i )->q80 f(q80 , o )->q81 f(q81 , n )->q82 Acepta cadena: union
+ f(q0 , u )->q78 f(q78 , n )->q79 f(q79 , s )->q83 f(q83 , i )->q84 f(q84 , g )->q87 f(q87 , n )->q88 f(q88 , e )->q89 f(q89 , d )->q90 Acepta cadena: unsigned
+ f(q0 , v )->q120 f(q120 , o )->q121 f(q121 , i )->q122 f(q122 , d )->q123 Acepta cadena: void
+ f(q0 , v )->q120 f(q120 , o )->q121 f(q121 , l )->q124 f(q124 , a )->q125 f(q125 , t )->q126 f(q126 , i )->q127 f(q127 , l )->q128 f(q128 , e )->q129 Acepta cadena: volatile
+ f(q0 , w )->q130 f(q130 , h )->q126 f(q126 , i )->q127 f(q127 , l )->q128 f(q128 , e )->q129 Acepta cadena: while
+ f(q0 , t )->q113 f(q113 , y )->q114 f(q114 , p )->q115 f(q115 , e )->q116 f(q116 , d )->q117 f(q117 , e )->q118 f(q118 , f )->q119 Acepta cadena: typedef
+ f(q0 , u )->q78 f(q78 , n )->q79 f(q79 , i )->q80 f(q80 , o )->q81 f(q81 , n )->q82 Acepta cadena: union
+ f(q0 , u )->q78 f(q78 , n )->q79 f(q79 , s )->q83 f(q83 , i )->q84 f(q84 , g )->q87 f(q87 , n )->q88 f(q88 , e )->q89 f(q89 , d )->q90 Acepta cadena: unsigned
+ f(q0 , v )->q120 f(q120 , o )->q121 f(q121 , i )->q122 f(q122 , d )->q123 Acepta cadena: void
+ f(q0 , v )->q120 f(q120 , o )->q121 f(q121 , l )->q124 f(q124 , a )->q125 f(q125 , t )->q126 f(q126 , i )->q127 f(q127 , l )->q128 f(q128 , e )->q129 Acepta cadena: volatile
+ f(q0 , w )->q130 f(q130 , h )->q126 f(q126 , i )->q127 f(q127 , l )->q128 f(q128 , e )->q129 Acepta cadena: while
+ f(q0 , v )->q120 f(q120 , o )->q121 f(q121 , l )->q124 f(q124 , a )->q125 f(q125 , t )->q126 f(q126 , i )->q127 f(q127 , l )->q128 f(q128 , e )->q129 Acepta cadena: volatile
+ f(q0 , w )->q130 f(q130 , h )->q126 f(q126 , i )->q127 f(q127 , l )->q128 f(q128 , e )->q129 Acepta cadena: while
