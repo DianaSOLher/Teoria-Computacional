@@ -1,0 +1,2 @@
+cd 'C:\Users\diani\Documents\UNIVERSIDAD\05 - Quinto Semestre\TEORIA COMPUTACIONAL\Primos' 
+plot "unosConjuntoPrimos.txt" using 1:(log10($2)/log10(2)) title "Log2 Unos Conjunto Primos"  linetype 5 linecolor 7
