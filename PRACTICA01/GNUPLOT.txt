@@ -1,0 +1,2 @@
+cd 'C:\Users\diani\Documents\UNIVERSIDAD\05 - Quinto Semestre\TEORIA COMPUTACIONAL\PRACTICA01'  
+plot "unos_conjunto.txt" using 1:(log10($2)/log10(2)) title "Log2 Unos Conjunto Universo" lt 6 lc 2 
